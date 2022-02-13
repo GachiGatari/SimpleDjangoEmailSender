@@ -124,11 +124,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-DEFAULT_FROM_EMAIL = 'mpodburtnyy@ya.ru'
-RECIPIENTS_EMAIL = ['mpodburtnyy@mail.ru']
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+
